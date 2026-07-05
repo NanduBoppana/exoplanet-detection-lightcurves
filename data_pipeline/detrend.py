@@ -36,6 +36,7 @@ def detrend_light_curve(fits_path: str, window_length: int = 401, plot: bool = T
         axes[0].set_title("Before Detrending")
         axes[1].set_title("After Detrending")
         plt.tight_layout()
+        fig.savefig("detrend_output.png", dpi=150)
         plt.show()
 
     return flat_lc
