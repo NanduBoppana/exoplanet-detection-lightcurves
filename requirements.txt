@@ -1,0 +1,7 @@
+lightkurve
+astropy
+numpy
+matplotlib
+xgboost
+scikit-learn
+batman-package
