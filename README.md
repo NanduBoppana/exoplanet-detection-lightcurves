@@ -28,6 +28,9 @@ exoplanet-detection-lightcurves/
 - ✅ **Data pipeline** — fetching and detrending light curve data (done)
 - 🚧 **Transit detection** — BLS-based candidate search (in progress)
 - 🚧 **Classification** — transit fitting and XGBoost classification (in progress)
+## Sample Output
+
+![Detrending output](detrend_output.png)
 
 ## Setup
 
